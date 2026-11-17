@@ -14,9 +14,21 @@ and verification. All exercises are controlled lab simulations.
 - [x] [Support-05: Local Account Password Reset and Recovery](Cases/Support-05-Password-Reset.md)
 - [x] [Support-06: Local Folder Access and Least Privilege](Cases/Support-06-Folder-Permissions.md)
       
-## ServiceDesk Simulator Practice
 
-Documented simulations covering user communication, troubleshooting, deployment, and service verification.
+## Service Desk Simulations
 
-- [Simulation 01: Replacement Workstation Deployment](ServiceDesk-Simulations/Simulation-01-Replacement-Workstation.md)
-- [Simulation 02: Intermittent Wi-Fi Connectivity](ServiceDesk-Simulations/Simulation-02-WiFi-Connectivity.md)
+In addition to six hands-on Windows IT Support case studies, the DuceTech portfolio includes 10 documented Service Desk training scenarios.
+
+These simulations cover:
+
+- Windows desktop troubleshooting and remote support
+- Identity and access management
+- User account provisioning and security group management
+- VPN, DNS, and network connectivity
+- Print server troubleshooting
+- Workstation imaging and deployment
+- Asset management and technical documentation
+
+The case studies document troubleshooting workflows, verified simulator outcomes, and lessons learned. They represent independent technical training, not production employment experience.
+
+### [View All 10 Service Desk Simulations](ServiceDesk-Simulations/README.md)

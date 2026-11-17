@@ -23,7 +23,7 @@ These exercises are **not production employment experience**.
 | [08](Ticket-08-New-Employee-Provisioning.md) | New Employee Provisioning | User account creation and access assignment |
 | [09](Ticket-09-Remote-Shared-Drive-Connectivity.md) | Remote Shared-Drive Connectivity | VPN, DNS, and mapped network drives |
 | [10](Ticket-10-WiFi-Connectivity.md) | Wi-Fi Connectivity | Wireless network troubleshooting |
-| [11](Ticket-11-Replacement-Workstation-Deployment.md) | Replacement Workstation Deployment | Workstation staging and deployment workflows |
+
 
 **Note:** Tickets 01 and 10 already have individual case studies. Their exact filenames need to be inserted as links. Verify the remaining filenames against the repository.
 

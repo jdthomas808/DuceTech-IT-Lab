@@ -13,7 +13,7 @@ These exercises are **not production employment experience**.
 
 | Ticket | Scenario | Technical Focus |
 |---|---|---|
-| 01 | Intermittent Wi-Fi Disconnections | Connectivity troubleshooting and end-user support |
+| [01](Ticket-01-Replacement-Workstation.md) | Replacement Workstation | Workstation replacement and deployment |
 | [02](Ticket-02-Office-Wide-Printer-Outage.md) | Office-Wide Printer Outage | Print server troubleshooting and incident management |
 | [03](Ticket-03-Windows-Time-Synchronization.md) | Windows Time Synchronization | System configuration and time synchronization |
 | [04](Ticket-04-Second-Monitor-Graphics-Driver.md) | Second Monitor Not Detected | Graphics drivers, remote support, and Windows updates |
@@ -22,7 +22,7 @@ These exercises are **not production employment experience**.
 | [07](Ticket-07-Department-Transfer-Access-Management.md) | Department Transfer | Security group management and least privilege |
 | [08](Ticket-08-New-Employee-Provisioning.md) | New Employee Provisioning | User account creation and access assignment |
 | [09](Ticket-09-Remote-Shared-Drive-Connectivity.md) | Remote Shared-Drive Connectivity | VPN, DNS, and mapped network drives |
-| 10 | VPN/DNS Connectivity Issue | Remote access troubleshooting |
+| [10](Ticket-10-WiFi-Connectivity.md) | Wi-Fi Connectivity | Wireless network troubleshooting |
 | [11](Ticket-11-Replacement-Workstation-Deployment.md) | Replacement Workstation Deployment | Workstation staging and deployment workflows |
 
 **Note:** Tickets 01 and 10 already have individual case studies. Their exact filenames need to be inserted as links. Verify the remaining filenames against the repository.

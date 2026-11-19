@@ -89,6 +89,14 @@ The portfolio also includes separate hands-on Windows IT Support exercises and S
 
 ---
 
+## Ticket System Display
+
+<img width="1350" height="610" alt="Screenshot 2026-11-19 003530" src="https://github.com/user-attachments/assets/43e376a9-4d63-4afc-b756-e19d3a467a9d" />
+<img width="363" height="223" alt="Screenshot 2026-11-19 003540" src="https://github.com/user-attachments/assets/f627e98f-b066-4a87-94a5-cc5813aa084c" />
+<img width="273" height="597" alt="Screenshot 2026-11-19 003601" src="https://github.com/user-attachments/assets/226b881f-25d3-408d-bf8a-03062fd0dc5c" />
+
+
+
 ## Related Portfolio Work
 
 - [IT Support Portfolio](../)

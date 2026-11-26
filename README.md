@@ -9,11 +9,12 @@ This repository documents practical exercises in Windows desktop support, enterp
 
 My objective is to bridge the gap between technical certifications and real-world IT responsibilities by developing hands-on troubleshooting skills, documenting technical procedures, and strengthening my understanding of enterprise environments.
 
-The portfolio is organized into three primary areas:
+The portfolio is organized into four primary areas:
 
 1. **Enterprise IT Support** — Hands-on Windows troubleshooting and system administration.
 2. **Service Desk Simulations** — Structured end-user support scenarios and enterprise IT workflows.
-3. **Security Operations** — Windows security investigations, network analysis, and SOC development.
+3. **Enterprise Infrastructure Lab** — Windows Server administration, Active Directory, DNS, and enterprise network deployment.
+4. **Security Operations** — Windows security investigations, network analysis, and SOC development.
 
 All work is performed in independent lab or training environments and is not represented as production employment experience.
 
@@ -25,8 +26,8 @@ All work is performed in independent lab or training environments and is not rep
 |---|---|---|
 | 🖥️ Enterprise IT Support | Six hands-on Windows troubleshooting case studies | [View IT Support](IT-Support/README.md) |
 | 🎧 Service Desk Simulations | Ten documented enterprise service desk training scenarios | [View Simulations](IT-Support/ServiceDesk-Simulations/README.md) |
-| 🔐 Security Operations | Windows event analysis, network investigation, and SOC lab development | [View SOC Roadmap](#-security-operations--soc-home-lab) |
-
+| 🏢 Enterprise Infrastructure Lab | Windows Server 2025, Active Directory, DNS, and infrastructure troubleshooting | [View Infrastructure Lab](Enterprise-Infrastructure-Lab/Phase-01-Server-AD-DNS/README.md) |
+| 🔐 Security Operations | Windows event analysis, network investigation, and SOC lab development | [View SOC Roadmap](#-04--security-operations--soc-home-lab) |
 ---
 
 # 🖥️ 01 — Enterprise IT Support
@@ -122,7 +123,98 @@ Individual case studies distinguish completed simulator actions from recommended
 
 ---
 
-# 🔐 03 — Security Operations & SOC Home Lab
+# 🏢 03 — Enterprise Infrastructure Lab
+
+### Windows Server | Active Directory | DNS | Enterprise Systems Administration
+
+The DuceTech Enterprise Infrastructure Lab is an independent, hands-on project designed to develop practical experience in deploying, administering, and troubleshooting enterprise IT infrastructure.
+
+The environment is being developed to support 50 employee accounts, centralized authentication, departmental access management, workstation administration, and enterprise IT support operations.
+
+## Completed Infrastructure Deployment
+
+- Deployed Windows Server 2025 using VMware Workstation.
+- Configured an isolated virtual enterprise network.
+- Configured static IPv4 addressing.
+- Installed Active Directory Domain Services and DNS Server roles.
+- Established the ducetech.test Active Directory forest and domain.
+- Promoted DT-DC01 to a domain controller.
+- Configured forward and reverse DNS lookup functionality.
+- Created and verified DNS A and PTR records.
+- Validated LDAP SRV records for domain controller discovery.
+- Executed PowerShell and DCDiag infrastructure diagnostics.
+- Established virtual machine recovery checkpoints.
+- Documented five technical troubleshooting incidents.
+
+## Infrastructure Environment
+
+| Component | Configuration |
+|---|---|
+| Server | DT-DC01 |
+| Operating System | Windows Server 2025 Standard Evaluation |
+| Virtualization | VMware Workstation |
+| Active Directory Domain | ducetech.test |
+| NetBIOS Domain | DUCETECH |
+| Server IPv4 Address | 192.168.50.10 |
+| Network | 192.168.50.0/24 |
+| Network Type | Isolated Virtual LAN |
+| Directory Services | Active Directory Domain Services |
+| Name Resolution | Windows DNS Server |
+
+## Infrastructure Development Roadmap
+
+| Phase | Project | Status |
+|---|---|---|
+| 01 | Windows Server, Active Directory & DNS Deployment | ✅ Complete |
+| 02 | Windows 11 Domain Integration | ⏳ Planned |
+| 03 | Organizational Units & Employee Account Provisioning | ⏳ Planned |
+| 04 | Security Groups & Access Management | ⏳ Planned |
+| 05 | DHCP Deployment & Administration | ⏳ Planned |
+| 06 | Group Policy Management | ⏳ Planned |
+| 07 | PowerShell Administration & Automation | ⏳ Planned |
+| 08 | Enterprise IT Troubleshooting Scenarios | ⏳ Planned |
+| 09 | Portfolio Consolidation & Final Documentation | ⏳ Planned |
+
+## Phase 01 — Technical Documentation
+
+| Document | Description |
+|---|---|
+| [Infrastructure Deployment](Enterprise-Infrastructure-Lab/Phase-01-Server-AD-DNS/README.md) | Architecture, configuration, implementation, and validation evidence |
+| [Technical Troubleshooting Report](Enterprise-Infrastructure-Lab/Phase-01-Server-AD-DNS/Troubleshooting.md) | Five documented technical incidents, investigations, and outcomes |
+| [PowerShell Command Reference](Enterprise-Infrastructure-Lab/Phase-01-Server-AD-DNS/PowerShell-Commands.md) | Administrative commands and infrastructure diagnostics |
+| [Implementation Screenshots](Enterprise-Infrastructure-Lab/Screenshots/) | Ten screenshots documenting deployment and verification |
+
+## Implementation Highlights
+
+### Active Directory Administration
+
+![Active Directory Infrastructure](Enterprise-Infrastructure-Lab/Screenshots/03-Active-Directory-Structure.png)
+
+### PowerShell Infrastructure Verification
+
+![PowerShell Verification](Enterprise-Infrastructure-Lab/Screenshots/06-PowerShell-AD-Verification.png)
+
+### Domain Controller Diagnostics
+
+![Domain Controller Diagnostics](Enterprise-Infrastructure-Lab/Screenshots/08B-DCDiag-Enterprise-DNS.png)
+
+## Technical Skills Developed
+
+- Windows Server administration
+- Active Directory Domain Services
+- Domain controller deployment
+- DNS administration and troubleshooting
+- IPv4 network configuration
+- PowerShell administration
+- Infrastructure health diagnostics
+- Virtual machine recovery management
+- Technical incident documentation
+
+Phase 01 core internal infrastructure functionality has been verified. Historical diagnostic errors remain documented, and additional enterprise services will be implemented in subsequent phases.
+
+---
+
+# 🔐 04 — Security Operations & SOC Home Lab
 
 ### Windows Security | Network Investigation | Threat Detection
 
@@ -252,14 +344,17 @@ Alongside the DuceTech lab, I use TryHackMe training environments to reinforce s
 
 | Category | Technologies & Concepts |
 |---|---|
-| Operating Systems | Windows 10/11 |
+| Operating Systems | Windows 10/11, Windows Server 2025 |
 | Desktop Support | Hardware/software troubleshooting, driver updates, workstation configuration |
-| Networking | TCP/IP, DNS, VPN, wireless connectivity, mapped drives |
+| Enterprise Infrastructure | AD DS, domain controllers, forest and domain deployment |
+| DNS Administration | Forward and reverse lookup zones, A records, PTR records, SRV records |
+| Networking | TCP/IP, static IPv4 addressing, DNS, VPN, wireless connectivity, mapped drives |
 | Windows Administration | PowerShell, Command Prompt, Event Viewer, NTFS permissions |
+| Infrastructure Diagnostics | DCDiag, nslookup, Resolve-DnsName, ipconfig |
 | Identity & Access | User provisioning, security groups, account administration, least privilege |
 | Endpoint Deployment | PXE boot, workstation imaging, device staging, asset management |
 | Security Operations | Windows event logs, authentication analysis, PowerShell logging, alert triage |
-| Virtualization | VMware Workstation Pro |
+| Virtualization | VMware Workstation, virtual networking, VMware Tools, snapshots |
 | Documentation | GitHub, Markdown, technical case studies, troubleshooting records |
 
 *Skills listed include hands-on lab activities, simulator exercises, and foundational technical study. Individual case studies provide the specific evidence and scope of work.*
@@ -268,7 +363,7 @@ Alongside the DuceTech lab, I use TryHackMe training environments to reinforce s
 
 # 📁 Repository Organization
 
-The repository is organized to separate hands-on IT Support work, Service Desk training, and cybersecurity investigations.
+The repository is organized to separate hands-on IT Support work, Service Desk training, enterprise infrastructure administration, and cybersecurity investigations.
 
 ```text
 DuceTech-IT-Lab/
@@ -280,6 +375,13 @@ DuceTech-IT-Lab/
 │       ├── Ticket-01-Replacement-Workstation.md
 │       ├── ...
 │       └── Ticket-10-WiFi-Connectivity.md
+│
+├── Enterprise-Infrastructure-Lab/
+│   ├── Phase-01-Server-AD-DNS/
+│   │   ├── README.md
+│   │   ├── Troubleshooting.md
+│   │   └── PowerShell-Commands.md
+│   └── Screenshots/
 │
 ├── Phase-01-Infrastructure/
 ├── Phase-02-Windows-Administration/
@@ -293,7 +395,7 @@ DuceTech-IT-Lab/
 └── README.md
 ```
 
-*This structure summarizes the portfolio organization. Planned SOC phase directories are shown as part of the project roadmap and may not yet contain completed work.*
+*Planned SOC phase directories are shown as part of the project roadmap and may not yet contain completed work.*
 
 ---
 
@@ -338,7 +440,7 @@ Where outcomes are incomplete or evidence is unavailable, the documentation iden
 
 - **CompTIA Security+ (SY0-701)** — Earned July 2026
 - **Google Cybersecurity Professional Certificate** — Completed August 2026
-- **Computer Science Coursework** — Tuskegee University
+- **Computer Science (Information Systems) Coursework (92 Credit Hours Completed)** — Tuskegee University
 
 ---
 

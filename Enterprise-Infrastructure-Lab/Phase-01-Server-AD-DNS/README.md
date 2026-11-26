@@ -64,7 +64,6 @@ The domain controller was assigned a static IP address to maintain consistent av
 
 The network was intentionally isolated from external networks to provide a controlled environment for administrative and troubleshooting exercises.
 
-## Network Architecture
 
 ## Network Architecture
 
@@ -151,6 +150,68 @@ Snapshot name:
 DT-DC01-Phase01-AD-DNS-Verified
 
 This checkpoint provides a recovery option before introducing additional workstations, user accounts, and administrative configurations.
+
+## Implementation Evidence
+
+The following screenshots document the deployment, configuration, troubleshooting, and validation of the DuceTech enterprise infrastructure environment.
+
+### 1. Windows Server Deployment
+
+Windows Server 2025 successfully deployed with Active Directory Domain Services and DNS Server roles installed.
+
+![Server Manager](Screenshots/01-Server-Manager.png)
+
+### 2. Static IP Configuration
+
+Verified static IPv4 configuration for DT-DC01 using the isolated DuceTech network.
+
+![Static IP Configuration](Screenshots/02-Static-IP-Configuration.png)
+
+### 3. Active Directory Infrastructure
+
+Verified the ducetech.test domain and its foundational Active Directory organizational structure.
+
+![Active Directory Structure](Screenshots/03-Active-Directory-Structure.png)
+
+### 4. DNS Forward Lookup Zone
+
+Verified DNS host records supporting hostname-to-IP address resolution.
+
+![DNS Forward Lookup](Screenshots/04-DNS-Forward-Lookup.png)
+
+### 5. DNS Reverse Lookup Zone
+
+Configured and validated a PTR record supporting IP-to-hostname resolution.
+
+![DNS Reverse Lookup](Screenshots/05-DNS-Reverse-Lookup.png)
+
+### 6. PowerShell Infrastructure Verification
+
+Validated domain, forest, domain controller, and Global Catalog configuration using PowerShell.
+
+![PowerShell Verification](Screenshots/06-PowerShell-AD-Verification.png)
+
+### 7. DNS Resolution and Domain Controller Discovery
+
+Successfully tested forward resolution, reverse resolution, and LDAP SRV records required for domain controller discovery.
+
+![DNS Resolution Tests](Screenshots/07-DNS-Resolution-Tests.png)
+
+### 8. Domain Controller DNS Diagnostics
+
+Executed DCDiag to validate domain controller connectivity and basic DNS functionality.
+
+![DCDiag Connectivity](Screenshots/08A-DCDiag-Connectivity-DNS.png)
+
+![DCDiag Enterprise DNS](Screenshots/08B-DCDiag-Enterprise-DNS.png)
+
+### 9. Infrastructure Recovery Checkpoint
+
+Created VMware snapshots to establish recovery checkpoints and support safe infrastructure changes.
+
+![Recovery Snapshot](Screenshots/09-Recovery-Snapshot.png)
+
+---
 
 ## Skills Demonstrated
 

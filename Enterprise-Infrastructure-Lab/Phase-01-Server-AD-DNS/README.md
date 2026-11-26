@@ -55,7 +55,8 @@ This project establishes a centralized domain environment designed to support 50
 | IPv4 address | 192.168.50.10 |
 | Subnet mask | 255.255.255.0 |
 | Network address | 192.168.50.0/24 |
-| Preferred DNS | 192.168.50.10 |
+| Initial DNS Configuration | 192.168.50.10 |
+| Current DNS Configuration | ::1 and 127.0.0.1 (Loopback) |
 | Default gateway | None |
 | Address assignment | Static |
 | Network adapter | Isolated LAN segment |

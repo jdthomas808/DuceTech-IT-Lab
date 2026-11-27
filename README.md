@@ -166,8 +166,8 @@ The environment is being developed to support 50 employee accounts, centralized 
 | Phase | Project | Status |
 |---|---|---|
 | 01 | Windows Server, Active Directory & DNS Deployment | ✅ Complete |
-| 02 | Windows 11 Domain Integration | ⏳ Planned |
-| 03 | Organizational Units & Employee Account Provisioning | ⏳ Planned |
+| 02 | Windows 11 Domain Integration | ✅ Complete |
+| 03 | Organizational Units & Employee Account Provisioning | ⏳ Next |
 | 04 | Security Groups & Access Management | ⏳ Planned |
 | 05 | DHCP Deployment & Administration | ⏳ Planned |
 | 06 | Group Policy Management | ⏳ Planned |
@@ -197,6 +197,32 @@ The environment is being developed to support 50 employee accounts, centralized 
 ### Domain Controller Diagnostics
 
 ![Domain Controller Diagnostics](Enterprise-Infrastructure-Lab/Screenshots/08B-DCDiag-Enterprise-DNS.png)
+
+
+### Phase 02 — Workstation Deployment & Domain Integration
+
+**Status:** Completed
+
+Successfully integrated a Windows 11 Pro workstation into the DuceTech Active Directory environment, establishing centralized authentication and enterprise endpoint management.
+
+**Key accomplishments:**
+
+- Configured static IPv4 addressing and internal DNS.
+- Verified network connectivity and domain controller discovery.
+- Implemented standardized workstation naming.
+- Joined DT-WS01 to the ducetech.test domain.
+- Verified Active Directory computer object registration.
+- Provisioned and authenticated a standard domain user.
+- Verified centralized password policy enforcement.
+- Diagnosed and resolved workstation and VMware integration issues.
+- Established pre-deployment and post-deployment recovery snapshots.
+
+**Project Documentation:**
+
+- [Phase 02 — Project Overview](Enterprise-Infrastructure-Lab/Phase-02-Workstation-Domain-Join/README.md)
+- [Troubleshooting Documentation](Enterprise-Infrastructure-Lab/Phase-02-Workstation-Domain-Join/Troubleshooting.md)
+- [PowerShell & Command-Line Reference](Enterprise-Infrastructure-Lab/Phase-02-Workstation-Domain-Join/PowerShell-Commands.md)
+
 
 ## Technical Skills Developed
 
@@ -376,12 +402,18 @@ DuceTech-IT-Lab/
 │       ├── ...
 │       └── Ticket-10-WiFi-Connectivity.md
 │
+
 ├── Enterprise-Infrastructure-Lab/
 │   ├── Phase-01-Server-AD-DNS/
 │   │   ├── README.md
 │   │   ├── Troubleshooting.md
 │   │   └── PowerShell-Commands.md
+│   ├── Phase-02-Workstation-Domain-Join/
+│   │   ├── README.md
+│   │   ├── Troubleshooting.md
+│   │   └── PowerShell-Commands.md
 │   └── Screenshots/
+
 │
 ├── Phase-01-Infrastructure/
 ├── Phase-02-Windows-Administration/

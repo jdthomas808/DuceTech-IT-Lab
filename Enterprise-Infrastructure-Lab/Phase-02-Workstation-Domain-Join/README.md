@@ -193,3 +193,24 @@ These checkpoints provide recovery options and demonstrate controlled infrastruc
 **Phase 02 — Technical Implementation Complete**
 
 Next Phase: Organizational Unit Design and Enterprise User Provisioning.
+
+
+## Supporting Evidence
+
+### Workstation Naming
+
+![Workstation Renaming](../Screenshots/11-Workstation-Renaming.png)
+
+### Successful Active Directory Domain Join
+
+![Successful Domain Join](../Screenshots/12-Successful-Domain-Join.png)
+
+### Active Directory Computer Registration
+
+![AD Computer Registration](../Screenshots/13-AD-Computer-Registration.png)
+
+### Centralized Domain Authentication
+
+![Domain Authentication](../Screenshots/15-Domain-Authentication.png)
+
+

@@ -338,3 +338,19 @@ This command was an attempted remediation, not the confirmed solution.
 
 - [Phase 02 Overview](README.md)
 - [Troubleshooting Documentation](Troubleshooting.md)
+
+  
+## Supporting Evidence
+
+### Domain Identity and Logon Server Verification
+
+![Domain Authentication Commands](../Screenshots/15-Domain-Authentication.png)
+
+### VMware Tools Process Verification
+
+![Tasklist Process Inspection](../Screenshots/16-VMware-Process-Diagnostics.png)
+
+### Windows User Session Verification
+
+![Windows Session Inspection](../Screenshots/17-Windows-Session-Diagnostics.png)
+

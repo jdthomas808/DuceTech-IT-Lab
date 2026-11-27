@@ -142,7 +142,6 @@ Executed the PowerShell automation to provision 47 additional employee accounts.
 
 Combined with the three existing manually provisioned accounts, the completed environment supported 50 employee identities across five departments.
 
-![Bulk Employee Provisioning](../Screenshots/29-Bulk-Employee-Provisioning.png)
 
 ![Departmental Verification](../Screenshots/30-Employee-Provisioning-Verification.png)
 

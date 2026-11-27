@@ -383,7 +383,6 @@ dcdiag /test:DNS /DnsBasic
 
 Confirmed Active Directory and DNS functionality following recovery.
 
-![Post-Recovery Verification](../Screenshots/18E-PostRecovery-Health-Verification.png)
 
 ## 15. Enterprise Automation Workflow
 

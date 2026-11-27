@@ -216,3 +216,24 @@ flowchart TD
 - Resolution verification
 - Incident prioritization
 - Infrastructure change management
+
+
+## Supporting Evidence
+
+### Incident 01 — Workstation Naming Conflict
+
+![Duplicate Workstation Name Warning](../Screenshots/10-Workstation-Naming-Conflict.png)
+
+### Incident 02 — Password Policy Enforcement
+
+![Domain Password Policy Rejection](../Screenshots/14-Password-Policy-Enforcement.png)
+
+### Incident 03 — VMware Clipboard Troubleshooting
+
+#### VMware Tools Process Inspection
+
+![VMware Process Diagnostics](../Screenshots/16-VMware-Process-Diagnostics.png)
+
+#### Windows User Session Inspection
+
+![Windows Session Diagnostics](../Screenshots/17-Windows-Session-Diagnostics.png)

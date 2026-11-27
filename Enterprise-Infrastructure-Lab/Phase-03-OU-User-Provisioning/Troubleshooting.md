@@ -104,7 +104,6 @@ dcdiag /test:DNS /DnsBasic
 | DCDiag Connectivity test | Passed |
 | DCDiag DNS test | Passed |
 
-![Post-Recovery Health Verification](../Screenshots/18E-PostRecovery-Health-Verification.png)
 
 ### Final Status
 
@@ -119,6 +118,10 @@ Core domain controller services were operational, allowing Phase 03 implementati
 ### Reported Issue
 
 VMware Workstation reported that ownership of DT-DC01 could not be obtained during recovery of the virtual disk dependency failure.
+
+The following screenshot documents the snapshot configuration before the virtual machine startup failure.
+
+![Predeployment Snapshot Configuration](../Screenshots/18-Phase03-PreDeployment-Snapshot.png)
 
 ### Error Message
 
@@ -175,6 +178,10 @@ Reviewed Windows Reliability Monitor on the physical host.
 The available reliability information had last been updated at 4:00 PM, before the most recent unexpected restart.
 
 Earlier critical events were visible, but none established the cause of the latest incident.
+
+![Physical Host Reliability Monitor](../Screenshots/34-Host-Reliability-Monitor.png)
+
+The screenshot documents historical system stability events. It does not establish the cause of the latest unexpected restart.
 
 ### Root Cause
 

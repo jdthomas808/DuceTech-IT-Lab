@@ -123,6 +123,8 @@ Individual case studies distinguish completed simulator actions from recommended
 
 ---
 
+
+
 # 🏢 03 — Enterprise Infrastructure Lab
 
 ### Windows Server | Active Directory | DNS | Enterprise Systems Administration
@@ -167,8 +169,8 @@ The environment is being developed to support 50 employee accounts, centralized 
 |---|---|---|
 | 01 | Windows Server, Active Directory & DNS Deployment | ✅ Complete |
 | 02 | Windows 11 Domain Integration | ✅ Complete |
-| 03 | Organizational Units & Employee Account Provisioning | ⏳ Next |
-| 04 | Security Groups & Access Management | ⏳ Planned |
+| 03 | Organizational Units & Employee Account Provisioning | ✅ Complete |
+| 04 | Security Groups & Access Management | ⏳ Next |
 | 05 | DHCP Deployment & Administration | ⏳ Planned |
 | 06 | Group Policy Management | ⏳ Planned |
 | 07 | PowerShell Administration & Automation | ⏳ Planned |
@@ -237,6 +239,32 @@ Successfully integrated a Windows 11 Pro workstation into the DuceTech Active Di
 - Technical incident documentation
 
 Phase 01 core internal infrastructure functionality has been verified. Historical diagnostic errors remain documented, and additional enterprise services will be implemented in subsequent phases.
+
+
+### Phase 03 — Organizational Units & Automated User Provisioning
+
+Designed and implemented a structured Active Directory environment supporting 50 employee identities across five business departments.
+
+**Key Accomplishments:**
+
+- Created eight custom organizational units.
+- Organized employee and workstation objects into designated OUs.
+- Established standardized employee account naming conventions.
+- Developed PowerShell automation for CSV-based employee provisioning.
+- Automated the creation of 47 additional employee accounts.
+- Validated 50 enabled accounts across five departments.
+- Enforced initial password changes for newly provisioned employees.
+- Verified domain authentication and Windows user profile initialization.
+- Recovered a corrupted VMware virtual disk and validated critical domain controller services.
+
+**Project Documentation:**
+
+- [Phase 03 Implementation](Enterprise-Infrastructure-Lab/Phase-03-OU-User-Provisioning/README.md)
+- [Troubleshooting and Incident Recovery](Enterprise-Infrastructure-Lab/Phase-03-OU-User-Provisioning/Troubleshooting.md)
+- [PowerShell Commands and Administrative Reference](Enterprise-Infrastructure-Lab/Phase-03-OU-User-Provisioning/PowerShell-Commands.md)
+- [Employee CSV Dataset](Enterprise-Infrastructure-Lab/Phase-03-OU-User-Provisioning/Scripts/Employees.csv)
+- [PowerShell Provisioning Script](Enterprise-Infrastructure-Lab/Phase-03-OU-User-Provisioning/Scripts/New-Employees.ps1)
+
 
 ---
 
@@ -412,6 +440,13 @@ DuceTech-IT-Lab/
 │   │   ├── README.md
 │   │   ├── Troubleshooting.md
 │   │   └── PowerShell-Commands.md
+│   ├── Phase-03-OU-User-Provisioning/
+│   │   ├── README.md
+│   │   ├── Troubleshooting.md
+│   │   ├── PowerShell-Commands.md
+│   │   └── Scripts/
+│   │       ├── Employees.csv
+│   │       └── New-Employees.ps1
 │   └── Screenshots/
 
 │
